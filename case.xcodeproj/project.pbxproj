@@ -14,6 +14,38 @@
 		B0D0B2881DE37E73001B9B7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0D0B2861DE37E73001B9B7E /* LaunchScreen.storyboard */; };
 		B0D0B2931DE37E74001B9B7E /* caseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D0B2921DE37E74001B9B7E /* caseTests.swift */; };
 		B0D0B29E1DE37E74001B9B7E /* caseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D0B29D1DE37E74001B9B7E /* caseUITests.swift */; };
+		B0D0B2C51DE37F1D001B9B7E /* CameraView.strings in Resources */ = {isa = PBXBuildFile; fileRef = B0D0B2AD1DE37F1D001B9B7E /* CameraView.strings */; };
+		B0D0B2C61DE37F1D001B9B7E /* CameraViewAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0D0B2AE1DE37F1D001B9B7E /* CameraViewAssets.xcassets */; };
+		B0D0B2C71DE37F1D001B9B7E /* CameraGlobals.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D0B2B01DE37F1D001B9B7E /* CameraGlobals.swift */; };
+		B0D0B2C81DE37F1D001B9B7E /* CameraShot.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D0B2B11DE37F1D001B9B7E /* CameraShot.swift */; };
+		B0D0B2C91DE37F1D001B9B7E /* ImageFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D0B2B21DE37F1D001B9B7E /* ImageFetcher.swift */; };
+		B0D0B2CA1DE37F1D001B9B7E /* PhotoLibraryAuthorizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D0B2B31DE37F1D001B9B7E /* PhotoLibraryAuthorizer.swift */; };
+		B0D0B2CB1DE37F1D001B9B7E /* SingleImageFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D0B2B41DE37F1D001B9B7E /* SingleImageFetcher.swift */; };
+		B0D0B2CC1DE37F1D001B9B7E /* SingleImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D0B2B51DE37F1D001B9B7E /* SingleImageSaver.swift */; };
+		B0D0B2CD1DE37F1D001B9B7E /* UIButtonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D0B2B61DE37F1D001B9B7E /* UIButtonExtensions.swift */; };
+		B0D0B2CE1DE37F1D001B9B7E /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D0B2B71DE37F1D001B9B7E /* UIViewExtensions.swift */; };
+		B0D0B2CF1DE37F1D001B9B7E /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D0B2B81DE37F1D001B9B7E /* Utilities.swift */; };
+		B0D0B2D01DE37F1D001B9B7E /* VolumeControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D0B2B91DE37F1D001B9B7E /* VolumeControl.swift */; };
+		B0D0B2D11DE37F1D001B9B7E /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D0B2BB1DE37F1D001B9B7E /* CameraViewController.swift */; };
+		B0D0B2D21DE37F1D001B9B7E /* CameraViewControllerConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D0B2BC1DE37F1D001B9B7E /* CameraViewControllerConstraint.swift */; };
+		B0D0B2D31DE37F1D001B9B7E /* ConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D0B2BD1DE37F1D001B9B7E /* ConfirmViewController.swift */; };
+		B0D0B2D41DE37F1D001B9B7E /* ConfirmViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0D0B2BE1DE37F1D001B9B7E /* ConfirmViewController.xib */; };
+		B0D0B2D51DE37F1D001B9B7E /* PhotoLibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D0B2BF1DE37F1D001B9B7E /* PhotoLibraryViewController.swift */; };
+		B0D0B2D61DE37F1D001B9B7E /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D0B2C11DE37F1D001B9B7E /* CameraView.swift */; };
+		B0D0B2D71DE37F1D001B9B7E /* CropOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D0B2C21DE37F1D001B9B7E /* CropOverlay.swift */; };
+		B0D0B2D81DE37F1D001B9B7E /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D0B2C31DE37F1D001B9B7E /* ImageCell.swift */; };
+		B0D0B2D91DE37F1D001B9B7E /* PermissionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D0B2C41DE37F1D001B9B7E /* PermissionsView.swift */; };
+		B0D0B2DC1DE390AB001B9B7E /* AddFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D0B2DB1DE390AB001B9B7E /* AddFilterViewController.swift */; };
+		B0D0B2FB1DE3A537001B9B7E /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = B0D0B2F01DE3A537001B9B7E /* .gitkeep */; };
+		B0D0B2FC1DE3A537001B9B7E /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = B0D0B2F21DE3A537001B9B7E /* .gitkeep */; };
+		B0D0B2FD1DE3A537001B9B7E /* SNButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D0B2F31DE3A537001B9B7E /* SNButton.swift */; };
+		B0D0B2FE1DE3A537001B9B7E /* SNFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D0B2F41DE3A537001B9B7E /* SNFilter.swift */; };
+		B0D0B2FF1DE3A537001B9B7E /* SNSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D0B2F51DE3A537001B9B7E /* SNSlider.swift */; };
+		B0D0B3001DE3A537001B9B7E /* SNSliderDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D0B2F61DE3A537001B9B7E /* SNSliderDataSource.swift */; };
+		B0D0B3011DE3A537001B9B7E /* SNSticker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D0B2F71DE3A537001B9B7E /* SNSticker.swift */; };
+		B0D0B3021DE3A537001B9B7E /* SNTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D0B2F81DE3A537001B9B7E /* SNTextField.swift */; };
+		B0D0B3031DE3A537001B9B7E /* SNUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D0B2F91DE3A537001B9B7E /* SNUtils.swift */; };
+		B0D0B3041DE3A537001B9B7E /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D0B2FA1DE3A537001B9B7E /* UIImageExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +79,38 @@
 		B0D0B2991DE37E74001B9B7E /* caseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = caseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0D0B29D1DE37E74001B9B7E /* caseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = caseUITests.swift; sourceTree = "<group>"; };
 		B0D0B29F1DE37E74001B9B7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0D0B2AD1DE37F1D001B9B7E /* CameraView.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = CameraView.strings; sourceTree = "<group>"; };
+		B0D0B2AE1DE37F1D001B9B7E /* CameraViewAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = CameraViewAssets.xcassets; sourceTree = "<group>"; };
+		B0D0B2B01DE37F1D001B9B7E /* CameraGlobals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraGlobals.swift; sourceTree = "<group>"; };
+		B0D0B2B11DE37F1D001B9B7E /* CameraShot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraShot.swift; sourceTree = "<group>"; };
+		B0D0B2B21DE37F1D001B9B7E /* ImageFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageFetcher.swift; sourceTree = "<group>"; };
+		B0D0B2B31DE37F1D001B9B7E /* PhotoLibraryAuthorizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoLibraryAuthorizer.swift; sourceTree = "<group>"; };
+		B0D0B2B41DE37F1D001B9B7E /* SingleImageFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleImageFetcher.swift; sourceTree = "<group>"; };
+		B0D0B2B51DE37F1D001B9B7E /* SingleImageSaver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleImageSaver.swift; sourceTree = "<group>"; };
+		B0D0B2B61DE37F1D001B9B7E /* UIButtonExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonExtensions.swift; sourceTree = "<group>"; };
+		B0D0B2B71DE37F1D001B9B7E /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		B0D0B2B81DE37F1D001B9B7E /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		B0D0B2B91DE37F1D001B9B7E /* VolumeControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VolumeControl.swift; sourceTree = "<group>"; };
+		B0D0B2BB1DE37F1D001B9B7E /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		B0D0B2BC1DE37F1D001B9B7E /* CameraViewControllerConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewControllerConstraint.swift; sourceTree = "<group>"; };
+		B0D0B2BD1DE37F1D001B9B7E /* ConfirmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmViewController.swift; sourceTree = "<group>"; };
+		B0D0B2BE1DE37F1D001B9B7E /* ConfirmViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConfirmViewController.xib; sourceTree = "<group>"; };
+		B0D0B2BF1DE37F1D001B9B7E /* PhotoLibraryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoLibraryViewController.swift; sourceTree = "<group>"; };
+		B0D0B2C11DE37F1D001B9B7E /* CameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		B0D0B2C21DE37F1D001B9B7E /* CropOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CropOverlay.swift; sourceTree = "<group>"; };
+		B0D0B2C31DE37F1D001B9B7E /* ImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		B0D0B2C41DE37F1D001B9B7E /* PermissionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PermissionsView.swift; sourceTree = "<group>"; };
+		B0D0B2DB1DE390AB001B9B7E /* AddFilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddFilterViewController.swift; path = Controllers/AddFilterViewController.swift; sourceTree = "<group>"; };
+		B0D0B2F01DE3A537001B9B7E /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		B0D0B2F21DE3A537001B9B7E /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		B0D0B2F31DE3A537001B9B7E /* SNButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SNButton.swift; sourceTree = "<group>"; };
+		B0D0B2F41DE3A537001B9B7E /* SNFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SNFilter.swift; sourceTree = "<group>"; };
+		B0D0B2F51DE3A537001B9B7E /* SNSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SNSlider.swift; sourceTree = "<group>"; };
+		B0D0B2F61DE3A537001B9B7E /* SNSliderDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SNSliderDataSource.swift; sourceTree = "<group>"; };
+		B0D0B2F71DE3A537001B9B7E /* SNSticker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SNSticker.swift; sourceTree = "<group>"; };
+		B0D0B2F81DE3A537001B9B7E /* SNTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SNTextField.swift; sourceTree = "<group>"; };
+		B0D0B2F91DE3A537001B9B7E /* SNUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SNUtils.swift; sourceTree = "<group>"; };
+		B0D0B2FA1DE3A537001B9B7E /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +161,8 @@
 		B0D0B27C1DE37E73001B9B7E /* case */ = {
 			isa = PBXGroup;
 			children = (
+				B0D0B2DA1DE39088001B9B7E /* Controllers */,
+				B0D0B2AB1DE37E85001B9B7E /* Libraries */,
 				B0D0B27D1DE37E73001B9B7E /* AppDelegate.swift */,
 				B0D0B27F1DE37E73001B9B7E /* ViewController.swift */,
 				B0D0B2811DE37E73001B9B7E /* Main.storyboard */,
@@ -123,6 +189,110 @@
 				B0D0B29F1DE37E74001B9B7E /* Info.plist */,
 			);
 			path = caseUITests;
+			sourceTree = "<group>";
+		};
+		B0D0B2AB1DE37E85001B9B7E /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				B0D0B2EE1DE3A537001B9B7E /* SnapSliderFilters */,
+				B0D0B2AC1DE37F1D001B9B7E /* ALCameraViewController */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		B0D0B2AC1DE37F1D001B9B7E /* ALCameraViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B0D0B2AD1DE37F1D001B9B7E /* CameraView.strings */,
+				B0D0B2AE1DE37F1D001B9B7E /* CameraViewAssets.xcassets */,
+				B0D0B2AF1DE37F1D001B9B7E /* Utilities */,
+				B0D0B2BA1DE37F1D001B9B7E /* ViewController */,
+				B0D0B2C01DE37F1D001B9B7E /* Views */,
+			);
+			name = ALCameraViewController;
+			path = Libraries/ALCameraViewController;
+			sourceTree = "<group>";
+		};
+		B0D0B2AF1DE37F1D001B9B7E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B0D0B2B01DE37F1D001B9B7E /* CameraGlobals.swift */,
+				B0D0B2B11DE37F1D001B9B7E /* CameraShot.swift */,
+				B0D0B2B21DE37F1D001B9B7E /* ImageFetcher.swift */,
+				B0D0B2B31DE37F1D001B9B7E /* PhotoLibraryAuthorizer.swift */,
+				B0D0B2B41DE37F1D001B9B7E /* SingleImageFetcher.swift */,
+				B0D0B2B51DE37F1D001B9B7E /* SingleImageSaver.swift */,
+				B0D0B2B61DE37F1D001B9B7E /* UIButtonExtensions.swift */,
+				B0D0B2B71DE37F1D001B9B7E /* UIViewExtensions.swift */,
+				B0D0B2B81DE37F1D001B9B7E /* Utilities.swift */,
+				B0D0B2B91DE37F1D001B9B7E /* VolumeControl.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		B0D0B2BA1DE37F1D001B9B7E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B0D0B2BB1DE37F1D001B9B7E /* CameraViewController.swift */,
+				B0D0B2BC1DE37F1D001B9B7E /* CameraViewControllerConstraint.swift */,
+				B0D0B2BD1DE37F1D001B9B7E /* ConfirmViewController.swift */,
+				B0D0B2BE1DE37F1D001B9B7E /* ConfirmViewController.xib */,
+				B0D0B2BF1DE37F1D001B9B7E /* PhotoLibraryViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		B0D0B2C01DE37F1D001B9B7E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B0D0B2C11DE37F1D001B9B7E /* CameraView.swift */,
+				B0D0B2C21DE37F1D001B9B7E /* CropOverlay.swift */,
+				B0D0B2C31DE37F1D001B9B7E /* ImageCell.swift */,
+				B0D0B2C41DE37F1D001B9B7E /* PermissionsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B0D0B2DA1DE39088001B9B7E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B0D0B2DB1DE390AB001B9B7E /* AddFilterViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		B0D0B2EE1DE3A537001B9B7E /* SnapSliderFilters */ = {
+			isa = PBXGroup;
+			children = (
+				B0D0B2EF1DE3A537001B9B7E /* Assets */,
+				B0D0B2F11DE3A537001B9B7E /* Classes */,
+			);
+			name = SnapSliderFilters;
+			path = Libraries/SnapSliderFilters;
+			sourceTree = "<group>";
+		};
+		B0D0B2EF1DE3A537001B9B7E /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B0D0B2F01DE3A537001B9B7E /* .gitkeep */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		B0D0B2F11DE3A537001B9B7E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B0D0B2F21DE3A537001B9B7E /* .gitkeep */,
+				B0D0B2F31DE3A537001B9B7E /* SNButton.swift */,
+				B0D0B2F41DE3A537001B9B7E /* SNFilter.swift */,
+				B0D0B2F51DE3A537001B9B7E /* SNSlider.swift */,
+				B0D0B2F61DE3A537001B9B7E /* SNSliderDataSource.swift */,
+				B0D0B2F71DE3A537001B9B7E /* SNSticker.swift */,
+				B0D0B2F81DE3A537001B9B7E /* SNTextField.swift */,
+				B0D0B2F91DE3A537001B9B7E /* SNUtils.swift */,
+				B0D0B2FA1DE3A537001B9B7E /* UIImageExtension.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,9 +405,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0D0B2C61DE37F1D001B9B7E /* CameraViewAssets.xcassets in Resources */,
 				B0D0B2881DE37E73001B9B7E /* LaunchScreen.storyboard in Resources */,
 				B0D0B2851DE37E73001B9B7E /* Assets.xcassets in Resources */,
+				B0D0B2C51DE37F1D001B9B7E /* CameraView.strings in Resources */,
 				B0D0B2831DE37E73001B9B7E /* Main.storyboard in Resources */,
+				B0D0B2D41DE37F1D001B9B7E /* ConfirmViewController.xib in Resources */,
+				B0D0B2FB1DE3A537001B9B7E /* .gitkeep in Resources */,
+				B0D0B2FC1DE3A537001B9B7E /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,8 +437,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0D0B2D31DE37F1D001B9B7E /* ConfirmViewController.swift in Sources */,
+				B0D0B2DC1DE390AB001B9B7E /* AddFilterViewController.swift in Sources */,
 				B0D0B2801DE37E73001B9B7E /* ViewController.swift in Sources */,
+				B0D0B2D51DE37F1D001B9B7E /* PhotoLibraryViewController.swift in Sources */,
+				B0D0B2D91DE37F1D001B9B7E /* PermissionsView.swift in Sources */,
+				B0D0B2D81DE37F1D001B9B7E /* ImageCell.swift in Sources */,
 				B0D0B27E1DE37E73001B9B7E /* AppDelegate.swift in Sources */,
+				B0D0B2CF1DE37F1D001B9B7E /* Utilities.swift in Sources */,
+				B0D0B2CB1DE37F1D001B9B7E /* SingleImageFetcher.swift in Sources */,
+				B0D0B2D71DE37F1D001B9B7E /* CropOverlay.swift in Sources */,
+				B0D0B3021DE3A537001B9B7E /* SNTextField.swift in Sources */,
+				B0D0B2D11DE37F1D001B9B7E /* CameraViewController.swift in Sources */,
+				B0D0B2C81DE37F1D001B9B7E /* CameraShot.swift in Sources */,
+				B0D0B2CA1DE37F1D001B9B7E /* PhotoLibraryAuthorizer.swift in Sources */,
+				B0D0B2FF1DE3A537001B9B7E /* SNSlider.swift in Sources */,
+				B0D0B3001DE3A537001B9B7E /* SNSliderDataSource.swift in Sources */,
+				B0D0B2C71DE37F1D001B9B7E /* CameraGlobals.swift in Sources */,
+				B0D0B2CE1DE37F1D001B9B7E /* UIViewExtensions.swift in Sources */,
+				B0D0B2CD1DE37F1D001B9B7E /* UIButtonExtensions.swift in Sources */,
+				B0D0B3041DE3A537001B9B7E /* UIImageExtension.swift in Sources */,
+				B0D0B2D61DE37F1D001B9B7E /* CameraView.swift in Sources */,
+				B0D0B2D21DE37F1D001B9B7E /* CameraViewControllerConstraint.swift in Sources */,
+				B0D0B2C91DE37F1D001B9B7E /* ImageFetcher.swift in Sources */,
+				B0D0B3031DE3A537001B9B7E /* SNUtils.swift in Sources */,
+				B0D0B2CC1DE37F1D001B9B7E /* SingleImageSaver.swift in Sources */,
+				B0D0B2FD1DE3A537001B9B7E /* SNButton.swift in Sources */,
+				B0D0B2D01DE37F1D001B9B7E /* VolumeControl.swift in Sources */,
+				B0D0B3011DE3A537001B9B7E /* SNSticker.swift in Sources */,
+				B0D0B2FE1DE3A537001B9B7E /* SNFilter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +716,7 @@
 				B0D0B2A41DE37E74001B9B7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B0D0B2A51DE37E74001B9B7E /* Build configuration list for PBXNativeTarget "caseTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +725,7 @@
 				B0D0B2A71DE37E74001B9B7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B0D0B2A81DE37E74001B9B7E /* Build configuration list for PBXNativeTarget "caseUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +734,7 @@
 				B0D0B2AA1DE37E74001B9B7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

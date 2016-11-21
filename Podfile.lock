@@ -1,0 +1,12 @@
+PODS:
+  - SnapSliderFilters (1.1)
+
+DEPENDENCIES:
+  - SnapSliderFilters
+
+SPEC CHECKSUMS:
+  SnapSliderFilters: f6572c91dccfee01f42b47af998d0d1b0cbfc9f7
+
+PODFILE CHECKSUM: c49b37a1d4b36889ecf9c0057452da976f8f1288
+
+COCOAPODS: 1.0.1

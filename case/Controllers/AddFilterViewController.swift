@@ -33,6 +33,13 @@ class AddFilterViewController: UIViewController {
         setupButtonCamera()
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if (segue.identifier == "backToImage") {
+            let destination = segue.destination as! ViewController
+            destination.caseImage = self.caseImage
+        }
+    }
+    
     override var prefersStatusBarHidden : Bool {
         return true
     }
@@ -78,6 +85,8 @@ class AddFilterViewController: UIViewController {
             let picture = SNUtils.screenShot(weakSelf?.screenView)
             if let image = picture {
                 print(image)
+                self.caseImage = image
+                self.performSegue(withIdentifier: "backToImage", sender: self)
                 UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil)
             }
         }

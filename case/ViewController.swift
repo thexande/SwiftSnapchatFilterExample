@@ -18,6 +18,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        if (self.caseImage != nil) {
+            self.caseImageView.image = caseImage
+        }
     }
 
     override func didReceiveMemoryWarning() {
